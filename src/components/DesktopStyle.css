@@ -1,0 +1,103 @@
+
+@media only screen and (min-width: 768px) {
+
+    .App {
+        
+        display: flex;
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(25%);
+        margin-top: 11%;
+    }
+
+    .top-div {
+        width: 300px;
+        height: 375px;
+        border-radius: 25px;
+        margin-right: 250px;
+    }
+
+    .top-div h4 {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
+    .circle-div {
+        width: 9rem;
+        height: 9rem;
+        padding: 10px 5px 0px 5px;
+    }
+
+    .cir-heading {
+        font-size: 60px;
+        margin-top: 0px;
+        padding-top: 25px;
+    }
+
+    .great {
+        margin-top: 30px;
+    }
+
+    .great-para {
+        padding: 0 3rem 0 3rem;
+        color: hsl(241, 100%, 89%);
+        margin-top: 8px;
+        font-size: 14px;
+      }
+
+    .lower-div {
+        width: 350px;
+        height: 405px;
+        background-color: hsl(0, 0%, 100%);
+        z-index: -10;
+        margin-left: 250px;
+        border-radius: 25px;
+        box-shadow: 10px 10px 30px 1px rgba(36, 42, 231, 0.1);
+    }
+
+    .top-div, .lower-div {
+        position: absolute;
+    }
+    
+    .summary {
+        margin: 28px 0px 20px 6rem;
+        font-size: large;
+    }
+
+    .psudo {
+        width: 14rem;
+        margin-left: 6rem;
+    }
+
+    .sum-div {
+        width: 14rem;
+        font-size: 12px;
+    }
+
+    svg {
+        padding: 16px 0 0 16px;
+        width: 16px;
+        height: 16px;
+    }
+
+    .sum-heading-one {
+        padding-right: 60px;
+    }
+
+    .conti-btn {
+        margin-top: 1.5rem;
+        margin-left: 4rem;
+        width: 14rem;
+        height: 2.7rem;
+        background-color: hsl(224, 30%, 27%);
+        border-radius: 50px;
+        border: none;
+        color: hsl(221, 100%, 96%);
+    }
+
+    .conti-btn h3 {
+        margin-top: 10px;
+    }
+}

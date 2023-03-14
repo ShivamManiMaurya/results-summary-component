@@ -1,38 +1,149 @@
 .App {
   text-align: center;
+  font-family: 'Hanken Grotesk', sans-serif;
+  display: grid;
+  place-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.top-div {
+  padding-top: 30px;
+  width: 375px;
+  height: 335px;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 0 0 10% 10%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.top-div h4 {
+  color: hsl(241, 100%, 89%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.circle-div {
+  margin: auto;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  color: hsl(0, 0%, 100%);
+}
+
+.cir-heading {
+  font-size: 50px;
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+
+.cir-para {
+  margin-top: 0;
+  color: hsl(242, 84%, 80%);
+  font-weight: bold;
+}
+
+.great {
+  color: hsl(221, 100%, 96%);
+  margin-bottom: 0;
+}
+
+.great-para {
+  padding: 0 3rem 0 3rem;
+  color: hsl(241, 100%, 89%);
+  margin-top: 8px;
+}
+
+
+.summary {
+  text-align: left;
+  margin-left: 2rem;
+  color: hsl(224, 30%, 27%);
+}
+
+svg {
+  padding: 20px 0 0 20px;
+}
+
+.sum-heading-one {
+  padding-right: 100px;
+}
+
+.sum-heading-two {
+  padding-right: 1rem;
+  color: hsl(224, 30%, 27%);
+}
+
+.sum-heading-two span {
+  color: hsl(0, 0%, 56%);
+}
+
+.psudo {
+  width: 20rem;
+  margin-left: 2rem;
+  border-radius: 12px;
+  margin-top: 1rem;
+}
+
+.sum-div {
+  width: 20rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  border-radius: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.psudo-reaction-div {
+  background-color: hsl(0, 65%, 80%);
+  color: hsl(0, 100%, 67%);
+  margin-top: 0rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Reaction {
+  background-color: hsl(0, 50%, 95%);
 }
+
+.psudo-memory-div {
+  background-color: hsl(39, 65%, 80%);
+  color: hsl(39, 100%, 56%);
+}
+
+.Memory {
+  background-color: hsl(39, 50%, 95%);
+}
+
+.psudo-verbal-div {
+  background-color: hsl(166, 65%, 80%);
+  color: hsl(166, 100%, 37%);
+}
+
+.Verbal {
+  background-color: hsl(166, 50%, 95%);
+}
+
+.psudo-visual-div {
+  background-color: hsl(234, 65%, 80%);
+  color: hsl(234, 85%, 45%);
+}
+
+.Visual {
+  background-color: hsl(234, 50%, 95%);
+}
+
+
+.conti-btn {
+  margin-top: 1rem;
+  width: 20rem;
+  height: 3.5rem;
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 50px;
+  border: none;
+  color: hsl(221, 100%, 96%);
+}
+
+button:hover {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+button:active {
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+
+
+
+
